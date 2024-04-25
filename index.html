@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="contact-container">
+        <div class="contact-header">
+          <h2>contact us</h2>
+        </div>
+        <div class="register-info">
+          <p>
+            Please drop us a line below and we'll get in touch with you shortly!
+          </p>
+        </div>
+        <form>
+          <div class="form-flex">
+            <div class="form-item">
+              <label for="">Name<span class="red-star">*</span></label>
+              <input type="text" name="Name" required />
+            </div>
+            <div class="form-item">
+            <label for="">E-mail<span class="red-star">*</span></label>
+            <input type="email" name="Email" required/>
+          </div>
+          <div class="form-item">
+            <label for="">Phone</label>
+            <input type="tel" name="Phone" />
+          </div>
+          <div class="form-item radio">
+            <label for="">Contact me by</label>
+            <div class="radio-item">
+            <span>E-mail</span>
+            <input type="radio" name="Email/Phone" id="" />
+          </div>
+          <div class="radio-item">
+            <span>Phone</span>
+            <input type="radio" name="Email/Phone" id="" />
+          </div>
+          </div>
+          <div class="form-item">
+            <label for="">Question for</label>
+            <select name="" id="">
+              <option>--Please Select</option>
+              <option value="">щось тут</option>
+              <option value="">і тут тоже щось</option>
+            </select>
+          </div>
+          <div class="form-item">
+            <label for="">Massage<span class="red-star">*</span></label>
+            <textarea name="Massage" required></textarea>
+          </div>
+          <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
